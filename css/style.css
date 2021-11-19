@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid #F53B49;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Inter;
+  font-weight: 700;
+  color: #F53B49;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/inter/static/Inter-Regular.ttf") format("truetype");
+}
+/*# sourceMappingURL=style.css.map */
