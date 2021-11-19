@@ -4,6 +4,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style-type: none;
+    font-family: Montserrat;
 }
 @import "./__btn";
 @import "./__container";
@@ -13,3 +14,61 @@
     src: url("../font/montserrat/Montserrat-Medium.ttf") format("truetype");
 }
 
+.navbar {
+    height: 60px;
+    .navbar-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navbar-blok-1 {
+            .navbar-hover {
+                position: relative;
+                &:hover .navbar-hidden{
+                    display: block;
+                }
+                .navbar-hidden {
+                    position: absolute;
+                    background-color: #3D0D97;
+                    color: #fff;
+                    padding: 20px 0px;
+                    padding-left: 20px;
+                    .navbar-right-ul {
+                        padding-left: 10px;
+                        a {
+                            font-weight: 100;
+                        }
+                    }
+                    a{
+                        color: #fff;
+                        margin-bottom: 20px;
+                        display: block;
+                        transition: 0.3s all;
+                        &:hover {
+                            color: #FCB03D;
+                        }
+                    }
+                }
+            }
+            ul li {
+                display: inline-block;
+                padding-right: 60px;
+                a{
+                    color: #3D0D97;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+        }
+        .navbar-blok-2 {
+            .btn {
+                i {
+                    color:#3D0D97;
+                    font-size: 25px;
+                    cursor: pointer;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
