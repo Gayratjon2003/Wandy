@@ -49,6 +49,7 @@
 
 .navbar .navbar-box .navbar-blok-1 .navbar-hover .navbar-hidden {
   position: absolute;
+  top: 40px;
   background-color: #3D0D97;
   color: #fff;
   padding: 20px 0px;
