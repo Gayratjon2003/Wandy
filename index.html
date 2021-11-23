@@ -5,58 +5,359 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Wandy</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="container">
-            <div class="navbar-box">
-                <a href="index.html">
-                    <img src="./img/logo.png" alt="Logo">
-                </a>
-                <div class="navbar-blok-1">
-                    <ul>
-                        <li class="navbar-hover">
-                            <a href="#!">магазин</a>
-                            <div class="navbar-hidden">
-                                
-                                    <ul>
-                                        <li><a href="">собственное производство</a></li>
-                                        <li><a href="">джинсы</a></li>
-                                        <li><a href="">обувь</a></li>
-                                        <ul class="navbar-right-ul">
-                                            <li><a href="#!">Демисезон</a></li>
-                                            <li><a href="#!">Кроссовки и кеды </a></li>
-                                            <li><a href="#!">летняя обувь</a></li>
+    <div id="head-header">
+        <div class="header">
+            <p>УТП</p>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar-box">
+                    <a href="index.html">
+                        <img src="./img/logo.png" alt="Logo">
+                    </a>
+                    <div class="navbar-blok-1">
+                        <ul>
+                            <li class="navbar-hover">
+                                <a href="#!" class="navbar-a-bottom">магазин</a>
+                                <div class="navbar-hidden">
+                                    
+                                        <ul>
+                                            <li><a href="#!">собственное производство</a></li>
+                                            <li><a href="#!">джинсы</a></li>
+                                            <li><a href="#!">обувь</a></li>
+                                            <ul class="navbar-right-ul">
+                                                <li><a href="#!">Демисезон</a></li>
+                                                <li><a href="#!">Кроссовки и кеды </a></li>
+                                                <li><a href="#!">летняя обувь</a></li>
+                                            </ul>
                                         </ul>
-                                    </ul>
-                                
-                            </div>
-                        </li>
-                        <li><a href="#!">о бренде</a></li>
-                        <li><a href="#!">отзывы</a></li>
-                        <li><a href="#!">контакты</a></li>
-                        <li><a href="#!">сервис и помощь</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-blok-2">
-                    <button class="btn">
-                        <i class='bx bx-search bx-rotate-90' ></i>
-                    </button>
-                    <button class="btn">
-                        <i class='bx bx-user'></i>
-                    </button>
-                    <button class="btn">
-                        <i class='bx bx-heart' ></i>
-                    </button>
-                    <button class="btn">
-                        <i class='bx bx-shopping-bag'></i>
-                    </button>
+                                    
+                                </div>
+                            </li>
+                            <li><a href="#!">о бренде</a></li>
+                            <li><a href="#!">отзывы</a></li>
+                            <li><a href="#!">контакты</a></li>
+                            <li><a href="#!">сервис и помощь</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-blok-2">
+                        <button class="btn">
+                            <i class='bx bx-search bx-rotate-90' ></i>
+                        </button>
+                        <button class="btn">
+                            <i class='bx bx-user'></i>
+                        </button>
+                        <button class="btn">
+                            <i class='bx bx-heart' ></i>
+                        </button>
+                        <button class="btn">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="tbody">
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+          <div class="carusel-1">
+              <h1>АКТУАЛЬНЫЕ МОДЕЛИ ДЖИНС</h1>
+              <p>Высококлассный материал, собственное производство</p>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="carusel-2">
+            <h1>Семейные спортивные костюмы </h1>
+            <p>Высококлассный материал, собственное производство</p>
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+    </div>
+
+    <div class="tbody-1">
+            <div class="tbody-1-box">
+                <div class="tbody-1-blok-1">
+                    <img src="./img/tbody-1.png" alt="Error!">
+                </div>
+                <div class="tbody-1-blok-2">
+                    <h1>О БРЕНДЕ</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lectus vel ligula ultricies auctor. Donec auctor laoreet sem, sit amet placerat purus semper eu. Maecenas quis placerat urna. Sed vehicula consequat dolor. Quisque sed finibus augue. Ut venenatis eget sapien id tincidunt. Mauris viverra erat metus, 
+                        eget commodo nunc rhoncus in. Vivamus non erat vel urna porttitor 
+                        tempus. Vivamus quis elit vulputate, fringilla metus quis, aliquet 
+                        erat. Nulla vel lacus nunc.
+                    </p>
+                    <button class="btn-1"><span class="btn-1-text">УЗНАТЬ БОЛЬШЕ</span> <img src="./img/btn-1.png"> </button>
+                </div>
+            </div>
+    </div>
+    <div class="tbody-2">
+        <div class="container">
+            <h1>МАГАЗИН</h1>
+        </div>
+    </div>
+
+    <div class="tbody-3"> 
+        <ul id="autoWidth" class="cs-hidden">
+     
+            <li class="item-a carousel-li">
+                <div class="tbody-3-box">
+                    <div class="tbody-3-content">
+                    <img src="./img/tbody-3-img-1.png" alt="Error">
+                    </div>
+                <div class="hr-1">
+                    <div class="hr-2"></div>
+                </div>
+                <p class="span-1">ДЖИНСЫ
+                    3000 Р</p>
+                </div>
+            </li>
+            <li class="item-b carousel-li">
+                <div class="tbody-3-box">
+                    <div class="tbody-3-content">
+                    <img src="./img/tbody-3-img-2.png" alt="Error">
+                    </div>
+                <div class="hr-1">
+                    <div class="hr-2"></div>
+                </div>
+                <p class="span-1">ДЖИНСЫ
+                    3000 Р</p>
+                </div>
+            </li>
+            <li class="item-c carousel-li">
+                <div class="tbody-3-box">
+                    <div class="tbody-3-content">
+                    <img src="./img/tbody-3-img-3.png" alt="Error">
+                    </div>
+                <div class="hr-1">
+                    <div class="hr-2"></div>
+                </div>
+                <p class="span-1">ДЖИНСЫ
+                    3000 Р</p>
+                </div>
+            </li>
+            <li class="item-d carousel-li">
+                <div class="tbody-3-box">
+                    <div class="tbody-3-content">
+                    <img src="./img/tbody-3-img-4.png" alt="Error">
+                    </div>
+                <div class="hr-1">
+                    <div class="hr-2"></div>
+                </div>
+                <p class="span-1">ДЖИНСЫ
+                    3000 Р</p>
+                </div>
+            </li>
+            <li class="item-e carousel-li">
+                <div class="tbody-3-box">
+                    <div class="tbody-3-content">
+                    <img src="./img/tbody-3-img-5.png" alt="Error">
+                    </div>
+                <div class="hr-1">
+                    <div class="hr-2"></div>
+                </div>
+                <p class="span-1">ДЖИНСЫ
+                    3000 Р</p>
+                </div>
+            </li>
+        </ul>    
+    </div>
+   <div class="tbody-4">
+    <button class="btn-1"><span class="btn-1-text">ПЕРЕЙТИ В МАГАЗИН</span> <img src="./img/btn-1.png"> </button>
+   </div>
+   <div class="tbody-5">
+       
+       <div class="tbody-5-box"></div>
+       <div class="tbody-5-content">
+        <div class="container-1">
+            <div class="tbody-5-blog">
+             <img src="./img/instagram.png" alt="Error">
+            <div class="tbody-5-right">
+                <h1>МЫ В INSTAGRAM</h1>
+                <a href="https://www.instagram.com/wandy_shoes" target="_blank">https://www.instagram.com/wandy_shoes</a>
+                <a href="https://www.instagram.com/wandy_ekb" target="_blank">https://www.instagram.com/wandy_ekb</a>
+            </div>
+            </div>
+           
+        </div>
+           
+       </div>
+   </div>
+   <div class="tbody-6">
+       <h1>отзывы</h1>
+       <div class="container-1">
+           <div class="tbody-6-box">
+               <div class="tbody-6-blok tbody-6-blok-1">
+                   <div class="tbody-6-content-1">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lectus vel 
+                           ligula ultricies auctor. Donec auctor laoreet sem, sit 
+                           amet placerat purus semper eu. Maecenas quis placerat urna.
+                            Sed vehicula consequat dolor. Quisque sed finibus augue. Ut venenatis eget 
+                            sapien id tincidunt. Mauris viverra erat metus, eget commodo nunc rhoncus in. 
+                            Vivamus non erat vel urna porttitor tempus. Vivamus quis elit vulputate, fringilla 
+                            metus quis, aliquet erat. Nulla vel lacus nunc.
+    
+                    </p>
+                       <div class="tbody-6-content-square">
+    
+                       </div>
+                   </div>
+                   <div class="tbody-6-content-2">
+                    <img src="./img/tbody-6-content-1.png" alt="Error">
+                   </div>
+               </div>
+               <div class="tbody-6-blok tbody-6-blok-2">
+                   <div class="tbody-6-content-1">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lectus vel 
+                           ligula ultricies auctor. Donec auctor laoreet sem, sit 
+                           amet placerat purus semper eu. Maecenas quis placerat urna.
+                            Sed vehicula consequat dolor. Quisque sed finibus augue. Ut venenatis eget 
+                            sapien id tincidunt. Mauris viverra erat metus, eget commodo nunc rhoncus in. 
+                            Vivamus non erat vel urna porttitor tempus. Vivamus quis elit vulputate, fringilla 
+                            metus quis, aliquet erat. Nulla vel lacus nunc.
+    
+                    </p>
+                       <div class="tbody-6-content-square">
+    
+                       </div>
+                   </div>
+                   <div class="tbody-6-content-2">
+                    <img src="./img/tbody-6-content-2.png" alt="Error">
+                   </div>
+               </div>
+               <div class="tbody-6-blok tbody-6-blok-1">
+                   <div class="tbody-6-content-1">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel lectus vel 
+                           ligula ultricies auctor. Donec auctor laoreet sem, sit 
+                           amet placerat purus semper eu. Maecenas quis placerat urna.
+                            Sed vehicula consequat dolor. Quisque sed finibus augue. Ut venenatis eget 
+                            sapien id tincidunt. Mauris viverra erat metus, eget commodo nunc rhoncus in. 
+                            Vivamus non erat vel urna porttitor tempus. Vivamus quis elit vulputate, fringilla 
+                            metus quis, aliquet erat. Nulla vel lacus nunc.
+    
+                    </p>
+                       <div class="tbody-6-content-square">
+    
+                       </div>
+                   </div>
+                   <div class="tbody-6-content-2">
+                    <img src="./img/tbody-6-content-3.png" alt="Error">
+                   </div>
+               </div>
+           </div>
+       </div>
+       <button class="btn-1"><span class="btn-1-text">СМОТРЕТЬ ВСЕ ОТЗЫВЫ</span> <img src="./img/btn-1.png"> </button>
+
+   </div>
+   
+   <div class="tbody-7">
+       <div class="tbody-7-blok-1">
+           <div class="container-1">
+            <h1>оставьТЕ свой отзыв
+                о wandy</h1>
+                <a href="https://moscow.flamp.ru/" target="_blank">На Flamp</a> <br>
+                <a href="https://yandex.ru/" target="_blank">На Яндексе</a>
+           </div>
+       </div>
+       <div class="tbody-7-blok-2">
+        <img src="./img/tbody-7-img.png" alt="Error">
+       </div>
+   </div>
+   <div class="footer">
+       <div class="container">
+           <div class="footer-box">
+               <div class="footer-blok-1">
+                   <h2>wandy </h2>
+                   <ul>
+                       <li><a href="#!">о бренде</a></li>
+                       <li><a href="#!">отзывы</a></li>
+                       <li><a href="#!">КОНФИДЕНЦИАЛЬНОСТь</a></li>
+                   </ul>
+               </div>
+               
+               <div class="footer-blok-1">
+                   <h2>поддержка</h2>
+                   <ul>
+                       <li><a href="#!">контакты</a></li>
+                       <li><a href="#!">доставка</a></li>
+                       <li><a href="#!">возврат</a></li>
+                       <li><a href="#!">оплата</a></li>
+                       <li><a href="#!">таблица размеров</a></li>
+                   </ul>
+               </div>
+               <div class="footer-blok-1">
+                   <h2>Где нас найти</h2>
+                   <ul>
+                       <li>адрес - г.Екатеринбург,
+                            Проспект Ленина 24/8,
+                             Вайнера 8, 6 этаж, офис 626<a href="#!"></a></li>
+                       <!-- <li><a href="#!"></a></li> --> <br>
+                       <li><a href="#!">время работы</a></li>
+                       <!-- <li><a href="#!"></a></li> --> <br>
+                       <li>89526982222<a href="#!"></a></li>
+                   </ul>
+               </div>
+               <div class="footer-blok-1">
+                   <h2>МЫ В INSTAGRAM</h2>
+                   <ul>
+                       <li><a href="#!">
+                        <div class="footer-blog">
+                            <i class='bx bxl-instagram'></i>
+                            <span>wandy_ekb</span>
+                        </div>
+                       </a></li>
+                       <li><a href="#!">
+                        <i class='bx bxl-instagram'></i>
+                        <span>wandy_shoes</span>
+                       </a></li>
+                   </ul>
+               </div>
+
+           </div>
+       </div>
+   </div>
+
+
 </body>
 <script src="./js/app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./Js/Jquery.js"></script> 
+<script src="./Js/lightslider.js"></script>   
+    <script>
+        // JavaScript Document
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
+
 </html>
+
+<!-- https://www.figma.com/file/49yLDaKOC9QkzQXjeFQpTM/%D1%81%D0%B0%D0%B9%D1%82-wandy?node-id=0%3A1 -->

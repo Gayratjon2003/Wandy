@@ -1,5 +1,23 @@
 .btn {
    background-color: transparent;
    border: transparent;
-
+   cursor: pointer;
+}
+.btn-1 {
+    cursor: pointer;
+    font-size: 14px;
+    color: #3D0D97;
+    border: 1px solid #3D0D97;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    .btn-1-text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    &:hover {
+        background-color: #FCB03D;
+    }
 }
